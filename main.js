@@ -2,7 +2,7 @@
 
     // first select where you want to place the new content  (existingElement)
     let existingElement = document. querySelector('.box')
-    
+
 
         // *create the new element
         // *let newElement = document.createElement('h1')
@@ -47,7 +47,7 @@ document.querySelector('#equals').addEventListener('click', function (event){
 
     console.log(eval(output.innerText))
 
-    output.innerText += event.target.innerText + eval(output.innerText)
+    output.innerText =output.innerText+ event.target.innerText + eval(output.innerText)
 
     // there is a issue with double ==, this may because 1 + 2= 
     // from below: button.addEventListener('click', function (event){

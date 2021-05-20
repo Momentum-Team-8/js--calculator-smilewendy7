@@ -1,0 +1,46 @@
+.cal{
+    display: flex; 
+    flex-wrap: wrap;
+    text-align: center;
+    width:500px;
+    justify-content: flex-start;
+}
+
+
+.box{
+    display: flex; 
+    flex-wrap: wrap;
+
+}
+
+.output {
+    width :330px; 
+    height: 90px;
+    background-color: aquamarine;
+    margin: 4px;
+    padding: 5px;
+    
+}
+
+
+.equal_sign{
+    width :100px; 
+    height: 90px;
+    background-color: aquamarine;
+    margin: 4px;
+    padding: 5px;
+    
+}
+
+
+.num{
+
+    width :100px; 
+    height: 100px;
+    background-color: aquamarine;
+    margin: 4px;
+    padding: 5px;
+
+
+
+}

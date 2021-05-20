@@ -1,0 +1,22 @@
+.box{
+    display: flex; 
+    text-align: center;
+
+    width:600px;
+    height: 800px;
+    
+}
+
+
+
+
+
+
+.num{
+
+    width :200px; 
+    height: 100px;
+    background-color: aquamarine;
+    margin: 4px;
+    padding: 5px;
+}

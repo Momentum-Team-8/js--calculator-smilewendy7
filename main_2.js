@@ -2,7 +2,7 @@
 
 // click on 1 2 3 + 
 
-let button_1= document.querySelector ('.box')
+let button_1= document.querySelector('.box')
 
 // click on the boxes 
 button_1.addEventListener('click', function(event){
